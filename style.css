@@ -11,6 +11,12 @@ em {
 }
 
 h1 {
-    padding-top: 150px;
+    padding-top: 10vw;
     font-size: 7rem;
+}
+
+@media screen and (max-width: 600px){
+    h1 {
+        font-size: 4.5rem;
+    }
 }
